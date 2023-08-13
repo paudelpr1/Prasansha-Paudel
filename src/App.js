@@ -5,20 +5,13 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Project from "./Components/Project";
 import Skills from "./Components/Skills";
+import NavContainer from "./Components/NavContainer";
 
 function App() {
   return (
-    // <main>
-    //   <Navbar />
-    //   <About />
-    //   <Project />
-    //   <Skills />
-    //   <Contact />
-    //   <Footer />
-    // </main>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <NavContainer />
+      
+     
   )
   
   
