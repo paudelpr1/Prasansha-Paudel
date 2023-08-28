@@ -3,9 +3,11 @@ import "./CSS/Navbar.css"
 
 function Navbar(props){
     return (
-        <div className = "navbar">
-        <a href = {props.href}>{props.text}</a>
-        </div>
+        <nav className = "navbar">
+            <div className = "flex justify-between">
+            <a href = {props.href}>{props.text}</a>
+            </div>
+        </nav>
     );
     
 
