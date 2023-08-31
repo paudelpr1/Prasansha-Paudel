@@ -1,3 +1,5 @@
+import LinkIcon from '@mui/icons-material/Link';
+
 function Project() {
     return (
         <section id = "projects" className="bg-slate-200 py-10">
@@ -18,9 +20,15 @@ function Project() {
                                 Description
                             </p>
                             <p className="text-md text-gray-800 text-justify">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum corrupti quis quaerat nihil aperiam, reprehenderit nulla quae, aliquid, laborum omnis repellat distinctio iure possimus. Ex earum velit ipsa ea!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum corrupti quis quaerat nihil aperiam, reprehenderit nulla quae, aliquid, laborum omnis repellat distinctio iure possimus. Ex earum velit ipsa ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum corrupti quis quaerat nihil aperiam, reprehenderit nulla quae, aliquid, laborum omnis repellat distinctio iure possimus. Ex earum velit ipsa ea!
+                                Led a team of six developers in crafting a web application for the ULM Pre-medical Advisory Committee, aimed at enhancing the preparation of pre-medical students for the Medical School Application process. This platform facilitates student registration, ensures a frictionless application creation experience, and enables effortless updates throughout the process.
+                                Moreover, it empowers committee members to closely monitor student progress, offering essential insights. The application received recognition and adoption by the ULM Pre-medical Advisory Committee, underlining its effectiveness and utility.
                             </p>
+
+                            <div className='py-3'>
+                                <a className="text-md text-gray-800 font-semibold text-justify" href='https://www.ulm-pmac.com/'><LinkIcon /> Webpage link</a>
+
+                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -40,8 +48,8 @@ function Project() {
                                 Description
                             </p>
                             <p className="text-md text-gray-800 text-justify">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum corrupti quis quaerat nihil aperiam, reprehenderit nulla quae, aliquid, laborum omnis repellat distinctio iure possimus. Ex earum velit ipsa ea!
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum corrupti quis quaerat nihil aperiam, reprehenderit nulla quae, aliquid, laborum omnis repellat distinctio iure possimus. Ex earum velit ipsa ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum corrupti quis quaerat nihil aperiam, reprehenderit nulla quae, aliquid, laborum omnis repellat distinctio iure possimus. Ex earum velit ipsa ea!
+                                Created a comprehensive Visitor Bureau Information System to serve the Monroe-West Monroe region, providing an effective mechanism for monitoring the city's visitor influx. This application facilitates visitors in submitting their details, including group size and purpose of visit to the city.
+                                Additionally, users can access real-time data on the current city occupancy, enhancing the overall visitor experience.
                             </p>
                         </div>
                     </div>
