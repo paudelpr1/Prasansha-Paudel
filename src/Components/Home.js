@@ -20,7 +20,7 @@ function Home(){
     }
 
     return (
-        <section className="bg-gray-100">
+        <section id = "home" className="bg-gray-100">
           <div className="container mx-auto px-10 py-3 flex justify-between items-center">
             <div className="">
               <h1 className="text-4xl font-semibold text-gray-800">
@@ -32,7 +32,7 @@ function Home(){
                 </div>
               </div>
               <div className=" py-3">
-                <Button  variant = "contained" style={{backgroundColor: "black", padding: "0.75rem"}} onClick= {OpenResume}>View Resume</Button>
+                <Button  variant = "contained" style={{backgroundColor: "#1f2937", padding: "0.75rem"}} onClick= {OpenResume}>View Resume</Button>
               </div>
             </div>
       
@@ -44,6 +44,7 @@ function Home(){
               />
             </div>
           </div>
+          <div className="py-5"></div>  
         </section>
       );
       

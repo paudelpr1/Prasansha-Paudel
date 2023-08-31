@@ -1,6 +1,6 @@
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { grey } from '@mui/material/colors';
+
 
 function About(){
 
@@ -11,7 +11,7 @@ function About(){
     }
 
     return (
-    <section className="bg-slate-200">
+    <section id= "about" className="bg-slate-200">
         <div className="text-center container mx-auto p-10">
             <h1 className="text-4xl font-semibold text-gray-800 py-2">
                 About Me
@@ -28,7 +28,7 @@ function About(){
             <a href = "https://github.com/paudelpr1"> <GitHubIcon style={IconStyles} /> </a> 
             </div>
         </div>
-
+        <div className="py-5"></div>  
     </section>
     );
 }
