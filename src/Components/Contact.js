@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Button from '@mui/material/Button';
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 
 function Contact(){
