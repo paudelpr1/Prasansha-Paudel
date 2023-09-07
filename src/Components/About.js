@@ -23,7 +23,7 @@ function About(){
                 and learning about them.
             </p>
             <div  className= "text-xl flex justify-center gap-16">
-            <a href = "https://www.linkedin.com/in/prasansha-paudel-59b572190/"> <LinkedInIcon style={IconStyles}  /></a>
+            <a href = "https://www.linkedin.com/in/prasansha-paudel/"> <LinkedInIcon style={IconStyles}  /></a>
                 
             <a href = "https://github.com/paudelpr1"> <GitHubIcon style={IconStyles} /> </a> 
             </div>
