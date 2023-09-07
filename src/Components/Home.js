@@ -16,7 +16,7 @@ function Home(){
     }, [texts.length]);
 
     const OpenResume = () =>{
-        window.open('Resume2023.pdf')
+        window.open('Resume_2023.pdf')
     }
 
     return (
